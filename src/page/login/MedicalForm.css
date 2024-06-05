@@ -1,0 +1,191 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../fonts/NestleTextTF-Bold.ttf);
+  }
+
+.login-container {
+   width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    font-family: myFirstFont;
+    align-items: center;
+}
+
+
+
+.login-form-container h2 {
+    font-family: myFirstFont;
+    text-align: center;
+    color: #333;
+    justify-content: center;
+}
+
+.login-form-container form {
+    display: flex;
+    flex-direction: column;
+    font-family: myFirstFont;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    font-family: myFirstFont;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: myFirstFont;
+}
+
+.input-icon {
+    position: relative;
+    font-family: myFirstFont;
+}
+
+.input-icon svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #666;
+    font-family: myFirstFont;
+}
+
+.input-icon input {
+    padding: 10px 30px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: myFirstFont;
+}
+
+.submit-btn,
+.login-btn {
+    padding: 10px;
+    background-color: #64513d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    font-family: myFirstFont;
+}
+
+.submit-btn:disabled,
+.login-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    font-family: myFirstFont;
+}
+
+.submit-btn:hover,
+.login-btn:hover {
+    background-color: #64513d;
+    font-family: myFirstFont;
+}
+
+.message {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-family: myFirstFont;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    font-family: myFirstFont;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-family: myFirstFont;
+}
+
+.message svg {
+    margin-right: 5px;
+    color: inherit;
+    font-family: myFirstFont;
+}
+
+
+.imag-login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(209 203 197);
+    font-family: myFirstFont;
+
+
+}
+.img-box{
+    background-color: rgb(209 203 197);
+    font-family: myFirstFont;
+}
+
+.text-logo{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: -20%;
+    font-family: myFirstFont;
+}
+
+.vontiner-flex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: myFirstFont;
+}
+.login-my{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: myFirstFont;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .login-my,
+    .imag-login {
+        width: 100%;
+        height: 50%;
+
+    }
+
+
+    .img2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .text-logo {
+        margin-top: 0;
+    }
+
+    .vontiner-flex{
+        display: block;
+
+    }
+}
+
+

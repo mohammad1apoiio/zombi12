@@ -1,0 +1,21 @@
+.loader-page {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fcfcff;
+}
+
+.gif {
+    margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  width: 88%;
+  height: 40%;
+}
+
+@media (max-width: 768px) {
+  .gif{
+    margin-top: 50%;
+  }
+}
+

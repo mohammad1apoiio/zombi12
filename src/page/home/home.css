@@ -1,0 +1,275 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../fonts/NestleTextTF-Bold.ttf);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  font-family: myFirstFont;
+}
+
+.formContainer {
+  width: 90%;
+  padding: 60px 60px 60px 60px;
+  font-family: myFirstFont;
+  box-sizing: border-box;
+}
+
+.cont-btn {
+  display: flex;
+  font-family: myFirstFont;
+}
+
+.cont-btn-wel {
+  width: 50%;
+}
+
+.btn-loguot {
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 60px;
+  font-family: myFirstFont;
+}
+
+.btn-log {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  background-color: rgb(209 203 197);
+  font-family: myFirstFont;
+  height: 10vh;
+}
+
+.form-hed {
+  display: flex;
+  font-family: myFirstFont;
+}
+
+.formss {
+  width: 50%;
+}
+
+.forms-hed {
+  text-align: center;
+  font-family: myFirstFont;
+  color: #64513d;
+}
+
+.azmon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(209 203 197);
+  height: 90vh;
+}
+
+.azmon-hed {
+  text-align: center;
+  font-weight: 700;
+  color: #64513d;
+  font-family: myFirstFont;
+}
+
+.azmon-body {
+  display: flex;
+  justify-content: center;
+  font-family: myFirstFont;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  font-family: myFirstFont;
+}
+
+.btn-save {
+  font-family: myFirstFont;
+  width: 95%;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.heading {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 24px;
+  color: #64513d;
+  font-family: myFirstFont;
+}
+
+.formField {
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555555;
+  font-family: myFirstFont;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #64513d;
+  font-size: 16px;
+  color: #333333;
+}
+
+.saveButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #64513d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: myFirstFont;
+}
+
+.logoutButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #64513d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: myFirstFont;
+}
+
+.successMessage {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  font-size: 14px;
+  font-family: myFirstFont;
+}
+
+.saveButton.disabled {
+  background-color: #64513d98;
+  cursor: not-allowed;
+}
+
+.saveButton:hover + .message {
+  display: block;
+}
+
+.radio {
+  display: flex;
+  padding: 0px;
+  align-items: first baseline;
+  margin-top: -10px;
+}
+
+.p-radio {
+  font-size: 13px;
+  color: #333333;
+  font-weight: 300;
+  width: 90%;
+}
+
+.form-fild-old {
+  width: 40%;
+}
+.mobail-h{
+    display: block;
+  }
+  .dekstop-h{
+    display: none;
+  }
+@media (max-width: 768px) {
+  .form-hed {
+    display: block;
+    width: 100%;
+  }
+
+  .formss {
+    width: 100%;
+
+  }
+  .formContainer {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .forms {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-fild-old {
+    width: 100%;
+  }
+
+  .azmon {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+  }
+
+  .img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-log {
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .logoutButton{
+    margin: 0px;
+  }
+
+  .btn-loguot {
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .heading {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .form-hed {
+    display: grid;
+    grid-template-rows: repeat(auto , auto);
+    grid-template-areas:
+      "bm"
+      "cm";
+  }
+
+  .azmon {
+    grid-area: bm;
+  }
+  .form-hed {
+    grid-area: cm;
+  }
+  .mobail-h{
+    display: none;
+  }
+  .dekstop-h{
+    display: block;
+  }
+}
